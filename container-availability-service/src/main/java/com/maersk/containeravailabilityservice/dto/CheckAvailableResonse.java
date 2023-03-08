@@ -1,0 +1,13 @@
+package com.maersk.containeravailabilityservice.dto;
+
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class CheckAvailableResonse {
+    private int availableSpace;
+}
